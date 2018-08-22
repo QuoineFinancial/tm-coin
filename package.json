@@ -15,10 +15,14 @@
   "author": "Matt Bell <mappum@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.18.0",
     "bl": "^1.2.2",
+    "bs58check": "^2.1.1",
     "debug": "^3.1.0",
+    "deterministic-json": "^1.0.5",
     "protobufjs": "^6.8.6",
-    "protocol-buffers-encodings": "^1.1.0"
+    "protocol-buffers-encodings": "^1.1.0",
+    "secp256k1": "^3.3.1"
   },
   "devDependencies": {
     "ava": "^0.25.0",
