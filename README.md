@@ -43,3 +43,14 @@ deliverTx
 endBlock
 commit
 ```
+
+# Sample Coin
+Start the app along side Tendermint node
+```bash
+node src/app.js
+```
+
+Generate transaction to send coins
+```bash
+node src/client.js
+```
